@@ -8,7 +8,6 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 
 const app = express();
 
-app.set("port", PORT)
 
 app.use(logger("dev"));
 
