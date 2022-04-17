@@ -8,7 +8,7 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 
 const app = express();
 
-
+// heroku run -a appname printenv to view data
 app.use(logger("dev"));
 
 app.use(compression());
